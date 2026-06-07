@@ -1,0 +1,65 @@
+# Large downloaded artifacts (track README / cards / scripts under these dirs)
+data/
+model/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and experiment outputs
+*.log
+logs/
+wandb/
+saves/
+outputs/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Tool caches
+.ruff_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db

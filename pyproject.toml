@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "r3lm"
+version = "0.1.0"
+description = "Biological Reasoning-Informed Regression for Interpretable Regulatory DNA Activity Prediction"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1.0",
+    "transformers>=4.44.0",
+    "peft>=0.11.0",
+    "pytorch-lightning>=2.2.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.11.0",
+    "accelerate>=0.33.0",
+    "huggingface_hub>=0.23.0",
+]
+
+[project.optional-dependencies]
+motifs = [
+    "pymemesuite>=0.1.0",
+    "anndata>=0.10.0",
+]
+
+[project.scripts]
+r3lm-train-stage2 = "r3lm.train_stage2:main"
+r3lm-build-rcc = "r3lm.build_rcc:main"
+r3lm-generate-rationales = "r3lm.generate_rationales:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["r3lm*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+line_length = 100

@@ -1,0 +1,41 @@
+### Stage-I: mechanistic rationale generation (SFT)
+### Usage:
+###   export LLAMAFACTORY_DATA_DIR=/path/to/R3LM/data
+###   llamafactory-cli train configs/stage1_sft.yaml
+
+model_name_or_path: Qwen/Qwen3-4B-Instruct-2507
+
+dataset: K562-1000_reason-sharegpt-short-conclu
+template: chatml_with_n
+cutoff_len: 2048
+preprocessing_num_workers: 8
+overwrite_cache: false
+
+stage: sft
+do_train: true
+finetuning_type: full
+max_grad_norm: 200.0
+
+enable_regression: false
+
+output_dir: saves/stage1/K562
+overwrite_output_dir: true
+num_train_epochs: 100
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16
+learning_rate: 1.0e-5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+logging_steps: 10
+save_steps: 100
+save_strategy: steps
+save_total_limit: 3
+save_only_model: true
+
+optim: adamw_torch
+weight_decay: 0.01
+bf16: true
+deepspeed: configs/deepspeed_ds_z2.json
+ddp_timeout: 180000000
+report_to: none
+plot_loss: true

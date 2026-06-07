@@ -1,0 +1,128 @@
+{
+  "K562-1000_reason-sharegpt-short-conclu": {
+    "file_name": "K562/1000-reason-sharegpt-short-conclu.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "K562-82k-with-reason-sharegpt": {
+    "file_name": "K562/82k+1k-with-reason-sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "K562-100-as-test-sharegpt-with+reason": {
+    "file_name": "K562/100-as-test-sharegpt-with+reason.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "HepG2-1000_reason-sharegpt-short-conclu": {
+    "file_name": "HepG2/1000-reason-sharegpt-short-conclu.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "HepG2-82k-with-reason-sharegpt": {
+    "file_name": "HepG2/82k+1k-with-reason-sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "HepG2-100-as-test-sharegpt-with+reason": {
+    "file_name": "HepG2/100-as-test-sharegpt-with+reason.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "SKNSH-1000_reason-sharegpt-short-conclu": {
+    "file_name": "SKNSH/1000-reason-sharegpt-short-conclu.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "SKNSH-82k-with-reason-sharegpt": {
+    "file_name": "SKNSH/82k+1k-with-reason-sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "SKNSH-100-as-test-sharegpt-with+reason": {
+    "file_name": "SKNSH/100-as-test-sharegpt-with+reason.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  }
+}
