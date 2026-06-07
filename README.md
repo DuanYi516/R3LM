@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
-    <a href="https://github.com/DuanYi516/R3LM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/DuanYi516/R3LM"></a>
+    <a href="https://github.com/DuanYi516/R3LM/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License"></a>
     <a href="https://huggingface.co/collections/DuanYi/r3lm"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
 </p>
 
